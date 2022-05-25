@@ -13,11 +13,32 @@ export const apiList = (s, type) => {
         .then((response) => response.json())
         .then((results) => {
             const items = results.Search;
-            console.log(items);
+            
+            viewItems(items);
         });
 };
 
+//estrapola ogni elemento dell'array e stampa le proprietà
 
+const viewItems = (items) => {
+    
+    
+    //3. Estrapolare solo le proprietà che ci servono
+    //  le proprietà sono Title, Year, Poster , Type
+
+    //1. Ciclare l'array
+    items.map(
+        (item) => {
+    //2. Estrapolare ogni item
+            console.group(item.Title);
+            console.log(item.Year);
+            console.log(item.Poster);
+            console.log(item.Type);
+            console.groupEnd();
+        }
+    );
+    
+}
 
 
 
