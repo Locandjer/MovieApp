@@ -1,6 +1,6 @@
 
 //con la s cerco tutti i risultati contenenti quella parola
-GET https://www.omdbapi.com/?apikey=af44033&s=terminator&type=game HTTP/20.1  
+GET https://www.omdbapi.com/?apikey=af44033&s=Terminator&type=series HTTP/20.1  
 
 ###
 
