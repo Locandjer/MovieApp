@@ -1,0 +1,20 @@
+
+//con la s cerco tutti i risultati contenenti quella parola
+GET https://www.omdbapi.com/?apikey=af44033&s=terminator&type=game HTTP/20.1  
+
+###
+
+//con la i cerco per id
+GET https://www.omdbapi.com/?apikey=af44033&i=tt0974959 HTTP/1.1  
+
+###
+
+
+// qui posso decidere quale pagina dei risultati scegliere se dovessero uscire tanti risultati
+GET https://www.omdbapi.com/?apikey=af44033&s=toyboy HTTP/20.1  
+
+###
+
+GET https://www.omdbapi.com/?apikey=af44033&s=toyboy&y=2012 HTTP/1.1  
+
+###
