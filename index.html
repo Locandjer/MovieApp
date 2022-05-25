@@ -9,20 +9,15 @@
 <body>
     <script type ="module">
         import {apiList} from "./modulo_api.js";
+        import{CONTENT_TYPE} from "./config.js";
         console.log("inizio");
-        apiList("american pie", "movie");
+        apiList("american pie", CONTENT_TYPE.MOVIE);
 
         //  Mettere la chiamata alla funzione per l'elenco  delle serie televisive
 
         console.log("fine");
 
-        /*import {listTerminatorSerie} from "./modulo_api.js"
-        console.log("inizio serie");
-        
-        listTerminatorSerie();
-
-        console.log("fine serie");*/
-
+       
     </script>
 </body>
 </html>

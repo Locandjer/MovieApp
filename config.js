@@ -7,4 +7,4 @@ export const CONTENT_TYPE = {
     SERIES: "series",
     EPISODE: "episode",
     GAME: "game"
-}
+};
