@@ -1,0 +1,16 @@
+body {
+    background-image: url("sfondo2.jpg");    
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Film:hover{
+    color: rgb(124, 205, 3);
+}
+#Film{
+    width: fit-content;
+}
+.card-img-top{
+    width: 285px !important;
+    height: 350px !important;
+}
