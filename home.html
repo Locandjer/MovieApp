@@ -17,13 +17,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 pe-5">
             <li class="nav-item">
-              <a class="nav-link active text-white me-3" aria-current="page" href="#">Film</a>
+              <a class="nav-link active text-white me-3" aria-current="page" href="#Film">Film</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white me-3" href="#">Serie</a>
+              <a class="nav-link text-white me-3" href="#Serie">Serie</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white me-3" href="#">Giochi</a>
+              <a class="nav-link text-white me-3" href="#Game">Giochi</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -34,15 +34,16 @@
       </div>
     </nav>  
 
+    <div id="Film"></div>
       <div class="container mt-5">
-        <p class="h2" id="Film">Films</p>
+        <p class="h2 films" id="Film">Films</p>
         <div class="row mb-4 justify-content-around ">
           <div class="col">
             <div class="card mx-auto" style="width: 18rem;">
               <img src="film_shrek/shrek1.jpg" class="card-img-top" alt="..." id="card-img-1">
               <div class="card-body" id="card_1">
                 <h5 class="card-title" id="card_titolo1">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                <p class="card-text" id="card_plot_1">Some quick example text to build on the card title and make up the bulk of the card's
                   content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -56,7 +57,7 @@
               <img src="film_shrek/shrek2.jpg" class="card-img-top" alt="..." id="card-img-2">
               <div class="card-body " id="card_2">
                 <h5 class="card-title" id="card_titolo2">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                <p class="card-text" id="card_plot_2">Some quick example text to build on the card title and make up the bulk of the card's
                   content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -69,7 +70,7 @@
               <img src="film_shrek/shrek3.jpg" class="card-img-top" alt="..." id="card-img-3">
               <div class="card-body" id="card_3">
                 <h5 class="card-title" id="card_titolo3">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                <p class="card-text" id="card_plot_3">Some quick example text to build on the card title and make up the bulk of the card's
                   content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -81,16 +82,16 @@
       
       
       
-        <p class="h2" id="Film">Series</p>
+        <p class="h2 films" id="Serie">Series</p>
         <div class="row">
           <div class="col-4">
       
           </div>
           <div class="col-4">
             <div class="card" style="width: 25rem; ">
-              <img src="serie_shrek/swamp_talk.jpg" style="width: 24.9rem !important ;" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+              <img src="serie_shrek/swamp_talk.jpg" style="width: 24.9rem !important ;" class="card-img-top" alt="..." id="cardimg4">
+              <div class="card-body" id="card4">
+                <h5 class="card-title" id="cardtitolo4">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                   content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -101,14 +102,14 @@
         </div>
       
       
-        <p class="h2" id="Film">Games</p>
+        <p class="h2 films" id="Game">Games</p>
         <div class="row mb-4">
           <div class="col">
             <div class="card mx-auto" style="width: 18rem;">
-              <img src="giochi_shrek/shrek2.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              <img src="sfondo2.jpg" class="card-img-top" alt="..." id="gioco-img-1">
+              <div class="card-body" id="gioco-1">
+                <h5 class="card-title" id="gioco-titolo-1">Card title</h5>
+                <p class="card-text" id="gioco-plot-1" >Some quick example text to build on the card title and make up the bulk of the card's
                   content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -119,10 +120,10 @@
       
           <div class="col">
             <div class="card mx-auto" style="width: 18rem;">
-              <img src="giochi_shrek/shrek_forever.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              <img src="giochi_shrek/shrek_forever.jpg" class="card-img-top" alt="..." id="gioco-img-2">
+              <div class="card-body" id="gioco-2">
+                <h5 class="card-title" id="gioco-titolo-2">Card title</h5>
+                <p class="card-text" id="gioco-plot-2">Some quick example text to build on the card title and make up the bulk of the card's
                   content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -132,10 +133,10 @@
       
           <div class="col">
             <div class="card mx-auto" style="width: 18rem;">
-              <img src="giochi_shrek/shrek_smash.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              <img src="giochi_shrek/shrek_smash.jpg" class="card-img-top" alt="..." id="gioco-img-3">
+              <div class="card-body" id="gioco-3">
+                <h5 class="card-title" id="gioco-titolo-3">Card title</h5>
+                <p class="card-text" id="gioco-plot-3">Some quick example text to build on the card title and make up the bulk of the card's
                   content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -151,9 +152,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="./modulo_api.js"></script>
     <script type = "module"> 
-        import {apiList} from "./modulo_api.js";
-        apiList('shrek', "movie");
-        
+        import {apiListFilm, apiListSerie, apiListGame} from "./modulo_api.js";
+        apiListFilm('shrek', "movie");
+        apiListSerie('shrek', "series");
+        apiListGame("shrek","game");
     </script>
   </body>
 </html>

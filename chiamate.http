@@ -1,6 +1,9 @@
 
 //con la s cerco tutti i risultati contenenti quella parola
-GET https://www.omdbapi.com/?apikey=af44033&t=shrek&type=movie HTTP/20.1  
+GET https://www.omdbapi.com/?apikey=af44033&s=shrek&type=movie HTTP/20.1  
+
+###
+GET https://www.omdbapi.com/?apikey=af44033&i=tt0410595 HTTP/20.1  
 
 ###
 

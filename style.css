@@ -3,13 +3,28 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+   
 }
-#Film:hover{
-    color: rgb(124, 205, 3);
+.films:hover{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa, 
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa !important;
+}
+.films{
+    width: fit-content;
+    color: rgb(124, 205, 3) !important;
 }
 #Film{
-    width: fit-content;
+    padding-top: 15px;
 }
+
 .card-img-top{
     width: 285px !important;
     height: 350px !important;
